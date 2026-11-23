@@ -100,9 +100,8 @@ const typingText = document.getElementById("typing-text");
 
 const words = [
     "Software Developer",
-    "Creative Designer",
-    "Graphic Designer",
-    "Video Editor"
+    "Database Administrator",
+    "Creative Media Designer"
 ];
 
 let wordIndex = 0;
@@ -227,5 +226,6 @@ window.addEventListener("load", function () {
     const preloader = document.getElementById("preloader");
 
     preloader.classList.add("hide");
+
 
 });
