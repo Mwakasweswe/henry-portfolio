@@ -784,10 +784,12 @@ column-gap: 10px;
         justify-self: start;
     }
 
-    .theme-toggle {
-        grid-column: 2;
-        justify-self: center;
-    }
+.theme-toggle {
+    grid-column: 2;
+    justify-self: end;
+    transform: translateY(-4px);
+    
+}
 
     .menu-toggle {
         grid-column: 3;
@@ -1376,6 +1378,7 @@ right: 5% !important;
         line-height: 1.2;
     }
 }
+
 
 
 
