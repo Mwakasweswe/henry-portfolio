@@ -1351,8 +1351,8 @@ right: 5% !important;
         display: none;
         flex-direction: column;
         align-items: stretch;
-        padding: 6px;
-        gap: 3px;
+        padding: 3px;
+        gap: 0px;
         background: #0b1120;
         border-radius: 10px;
         z-index: 9999;
@@ -1369,11 +1369,13 @@ right: 5% !important;
 
     .nav-links a {
         display: block;
-        padding: 6px;
+        padding: 4px 6px;
         text-align: center;
         font-size: 13px;
+        line-height: 1.2;
     }
 }
+
 
 
 
