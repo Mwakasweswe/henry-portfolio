@@ -1342,10 +1342,10 @@ body.light-mode .nav-links {
     }
 
     .nav-links {
-        position: absolute !important;
-        top: calc(100% + 10px) !important;
-        left: auto !important;
-        right: 0 !important;
+       position: fixed !important;
+top: 75px !important;
+left: auto !important;
+right: 5% !important;
         width: 220px !important;
         max-width: calc(100vw - 30px);
         display: none;
@@ -1373,5 +1373,6 @@ body.light-mode .nav-links {
         text-align: center;
     }
 }
+
 
 
